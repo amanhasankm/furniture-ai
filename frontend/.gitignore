@@ -1,0 +1,52 @@
+# Dependencies
+
+node_modules/
+frontend/node_modules/
+
+# Python
+
+venv/
+backend/venv/
+**pycache**/
+*.pyc
+
+# AI Models
+
+*.pt
+*.pth
+*.onnx
+
+# Uploads
+
+uploads/
+backend/uploads/
+
+# Next.js
+
+.next/
+out/
+build/
+
+# Environment
+
+.env
+.env.local
+
+# macOS
+
+.DS_Store
+
+# Vercel
+
+.vercel
+
+# Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+
+*.tsbuildinfo
+next-env.d.ts
